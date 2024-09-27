@@ -111,7 +111,7 @@ void GAME::run()
 	//�E�B���h�E����
 	VideoMode.width = 600; //��600
 	VideoMode.height = 800; //�c800
-	Window = new sf::RenderWindow(VideoMode, L"�E�E�V���[�e�B���O��", sf::Style::Titlebar | sf::Style::Close);
+	Window = new sf::RenderWindow(VideoMode,"NinNinShooting", sf::Style::Titlebar | sf::Style::Close);
 	Window->setFramerateLimit(60);
 
 	//�f�[�^�̍쐬
