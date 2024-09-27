@@ -1,0 +1,5 @@
+﻿  STAGE.cpp
+C:\Users\user\Documents\Visual Studio 2022\忍忍シューティング改\忍忍シューティング改\GAME.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  (ソース ファイル 'STAGE.cpp' をコンパイルしています)
+  
+  忍忍シューティング改.vcxproj -> C:\Users\user\Documents\Visual Studio 2022\忍忍シューティング改\Debug\忍忍シューティング改.exe

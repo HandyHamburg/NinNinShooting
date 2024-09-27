@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="manager">
+      <UniqueIdentifier>{04b82820-c926-40f1-af38-03f38afa238d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{b65b472c-d2e2-4784-892a-5c57aacdfa3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\base">
+      <UniqueIdentifier>{6e7c6e21-dd95-4942-8f53-be13fcbaa82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_objects">
+      <UniqueIdentifier>{dff8e8ee-7ed7-4121-9d18-b336e8355713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_objects\base">
+      <UniqueIdentifier>{9f9addab-ac15-4e11-ae21-657949022ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_objects\transition">
+      <UniqueIdentifier>{10443d02-5219-4899-943b-e06a82ee004b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_objects\transition\base">
+      <UniqueIdentifier>{5d5e101d-5532-4dab-9641-4a167bb0792b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="container">
+      <UniqueIdentifier>{d0ffa09b-c0fe-4f12-b81c-e7b408e25bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="charactor">
+      <UniqueIdentifier>{35ff7195-15b5-43f9-8088-09438bd0eb6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_objects\bullet">
+      <UniqueIdentifier>{e7bffc23-7583-461e-b791-e942adfdece7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="items">
+      <UniqueIdentifier>{ddb934af-948a-4b30-bf00-94b1c0d7c782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="background">
+      <UniqueIdentifier>{9f06098b-f356-4d54-b529-cb6a2e3ebf09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="background\base">
+      <UniqueIdentifier>{6051bba8-a2cf-456c-8cfc-add0f24ea987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_objects\explosion">
+      <UniqueIdentifier>{84b7bb9c-93e7-4d68-be63-cd8de738de53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GAME.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="STAGE.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_CLEAR.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_OVER.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SCENE.cpp">
+      <Filter>scene\base</Filter>
+    </ClCompile>
+    <ClCompile Include="TITLE.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_OBJECT.cpp">
+      <Filter>game_objects\base</Filter>
+    </ClCompile>
+    <ClCompile Include="TRANSITION.cpp">
+      <Filter>game_objects\transition\base</Filter>
+    </ClCompile>
+    <ClCompile Include="TRANSITION_FADE.cpp">
+      <Filter>game_objects\transition</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ENEMIES.cpp">
+      <Filter>charactor</Filter>
+    </ClCompile>
+    <ClCompile Include="PLAYER.cpp">
+      <Filter>charactor</Filter>
+    </ClCompile>
+    <ClCompile Include="CONTAINER.cpp">
+      <Filter>container</Filter>
+    </ClCompile>
+    <ClCompile Include="BULLETS.cpp">
+      <Filter>game_objects\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="PLAYER_BULLETS.cpp">
+      <Filter>game_objects\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ENEMY_BULLETS.cpp">
+      <Filter>game_objects\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ITEMS.cpp">
+      <Filter>items</Filter>
+    </ClCompile>
+    <ClCompile Include="POWER_ITEMS.cpp">
+      <Filter>items</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKGROUND.cpp">
+      <Filter>background\base</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKGROUND_STAGE.cpp">
+      <Filter>background</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKGROUND_OVER.cpp">
+      <Filter>background</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKGROUND_CLEAR.cpp">
+      <Filter>background</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKGROUND_TITLE.cpp">
+      <Filter>background</Filter>
+    </ClCompile>
+    <ClCompile Include="IZUNA_ITEMS.cpp">
+      <Filter>items</Filter>
+    </ClCompile>
+    <ClCompile Include="IZUNA_BULLETS.cpp">
+      <Filter>game_objects\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="EXPLOSIONS.cpp">
+      <Filter>game_objects\explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="BOSS.cpp">
+      <Filter>charactor</Filter>
+    </ClCompile>
+    <ClCompile Include="TONGUE.cpp">
+      <Filter>charactor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GAME.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SCENE.h">
+      <Filter>scene\base</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_CLEAR.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_OVER.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="STAGE.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TITLE.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_OBJECT.h">
+      <Filter>game_objects\base</Filter>
+    </ClInclude>
+    <ClInclude Include="TRANSITION.h">
+      <Filter>game_objects\transition\base</Filter>
+    </ClInclude>
+    <ClInclude Include="TRANSITION_FADE.h">
+      <Filter>game_objects\transition</Filter>
+    </ClInclude>
+    <ClInclude Include="ENEMIES.h">
+      <Filter>charactor</Filter>
+    </ClInclude>
+    <ClInclude Include="CONTAINER.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="BULLETS.h">
+      <Filter>game_objects\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ENEMY_BULLETS.h">
+      <Filter>game_objects\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ITEMS.h">
+      <Filter>items</Filter>
+    </ClInclude>
+    <ClInclude Include="POWER_ITEMS.h">
+      <Filter>items</Filter>
+    </ClInclude>
+    <ClInclude Include="BACKGROUND.h">
+      <Filter>background\base</Filter>
+    </ClInclude>
+    <ClInclude Include="BACKGROUND_STAGE.h">
+      <Filter>background</Filter>
+    </ClInclude>
+    <ClInclude Include="BACKGROUND_CLEAR.h">
+      <Filter>background</Filter>
+    </ClInclude>
+    <ClInclude Include="BACKGROUND_OVER.h">
+      <Filter>background</Filter>
+    </ClInclude>
+    <ClInclude Include="BACKGROUND_TITLE.h">
+      <Filter>background</Filter>
+    </ClInclude>
+    <ClInclude Include="IZUNA_ITEMS.h">
+      <Filter>items</Filter>
+    </ClInclude>
+    <ClInclude Include="PLAYER.h">
+      <Filter>charactor</Filter>
+    </ClInclude>
+    <ClInclude Include="IZUNA_BULLETS.h">
+      <Filter>game_objects\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="EXPLOSIONS.h">
+      <Filter>game_objects\explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="BOSS.h">
+      <Filter>charactor</Filter>
+    </ClInclude>
+    <ClInclude Include="PLAYER_BULLETS.h">
+      <Filter>game_objects\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="TONGUE.h">
+      <Filter>charactor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
